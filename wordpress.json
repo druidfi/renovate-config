@@ -16,7 +16,8 @@
       ],
       "labels": [
         "wordpress",
-        "wp-cli"
+        "wp-cli",
+        "tools"
       ]
     },
     {

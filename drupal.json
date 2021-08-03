@@ -10,6 +10,7 @@
       ],
       "groupName": "Drupal Core",
       "labels": [
+        "drupal",
         "drupal-core"
       ]
     },
@@ -23,8 +24,20 @@
       ],
       "groupName": "Drupal Core",
       "labels": [
+        "drupal",
         "drupal-core",
         "major"
+      ]
+    },
+    {
+      "datasources": ["packagist"],
+      "packageNames": [
+        "drush/drush"
+      ],
+      "labels": [
+        "drupal",
+        "drush",
+        "tools"
       ]
     },
     {

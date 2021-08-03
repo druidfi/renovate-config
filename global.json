@@ -1,0 +1,15 @@
+{
+  "baseBranches": [
+    "dev"
+  ],
+  "extends": [
+    "config:base",
+    ":preserveSemverRanges",
+    ":disableRateLimiting"
+  ],
+  "labels": ["dependencies"],
+  "dependencyDashboard": true,
+  "separateMajorMinor": true,
+  "separateMinorPatch": true,
+  "separateMultipleMajor": true
+}

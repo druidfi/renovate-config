@@ -9,7 +9,9 @@
         "drupal/core-composer-scaffold"
       ],
       "groupName": "Drupal Core",
-      "labels": ["drupal-core"]
+      "labels": [
+        "drupal-core"
+      ]
     },
     {
       "datasources": ["packagist"],
@@ -20,13 +22,18 @@
         "drupal/core-composer-scaffold"
       ],
       "groupName": "Drupal Core",
-      "labels": ["drupal-core", "major"]
+      "labels": [
+        "drupal-core",
+        "major"
+      ]
     },
     {
       "matchPackagePrefixes": [
         "drupal/"
       ],
-      "addLabels": ["drupal"]
+      "addLabels": [
+        "drupal"
+      ]
     }
   ]
 }

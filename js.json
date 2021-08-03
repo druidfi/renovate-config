@@ -9,6 +9,9 @@
       ]
     },
     {
+      "matchLanguages": [
+        "javascript"
+      ],
       "updateTypes": ["major"],
       "enabled": false
     }

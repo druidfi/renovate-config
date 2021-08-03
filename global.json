@@ -11,5 +11,6 @@
   "dependencyDashboard": true,
   "separateMajorMinor": true,
   "separateMinorPatch": true,
-  "separateMultipleMajor": true
+  "separateMultipleMajor": true,
+  "timezone": "Europe/Helsinki"
 }

@@ -1,0 +1,33 @@
+{
+  "packageRules": [
+    {
+      "packageNames": [
+        "johnpbloch/wordpress"
+      ],
+      "groupName": "Wordpress Core",
+      "labels": [
+        "wordpress",
+        "wordpress-core"
+      ]
+    },
+    {
+      "packageNames": [
+        "wp-cli/wp-cli"
+      ],
+      "labels": [
+        "wordpress",
+        "wp-cli"
+      ]
+    },
+    {
+      "matchPackagePrefixes": [
+        "wpackagist-plugin/"
+      ],
+      "groupName": "WordPress Plugins",
+      "addLabels": [
+        "wordpress",
+        "wordpress-plugin"
+      ]
+    }
+  ]
+}

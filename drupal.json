@@ -21,6 +21,12 @@
       ],
       "groupName": "Drupal Core",
       "labels": ["drupal-core", "major"]
+    },
+    {
+      "matchPackagePrefixes": [
+        "drupal/"
+      ],
+      "addLabels": ["drupal"]
     }
   ]
 }

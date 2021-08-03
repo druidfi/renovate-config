@@ -4,7 +4,6 @@
       "packageNames": [
         "johnpbloch/wordpress"
       ],
-      "groupName": "Wordpress Core",
       "labels": [
         "wordpress",
         "wordpress-core"

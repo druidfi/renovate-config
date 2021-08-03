@@ -19,7 +19,7 @@
         "drupal/core-recommended",
         "drupal/core-composer-scaffold"
       ],
-      "groupName": "Drupal Core Upgrade",
+      "groupName": "Drupal Core",
       "labels": ["drupal-core", "major"]
     }
   ]

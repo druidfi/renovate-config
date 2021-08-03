@@ -7,7 +7,6 @@
     ":preserveSemverRanges",
     ":disableRateLimiting"
   ],
-  "labels": ["dependencies"],
   "dependencyDashboard": true,
   "separateMajorMinor": true,
   "separateMinorPatch": true,

@@ -1,0 +1,13 @@
+{
+  "packageRules": [
+    {
+      "datasources": ["packagist"],
+      "updateTypes": ["patch", "minor"],
+      "matchPackagePrefixes": [
+        "symfony/"
+      ],
+      "groupName": "Symfony",
+      "labels": ["symfony"]
+    }
+  ]
+}

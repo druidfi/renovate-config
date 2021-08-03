@@ -1,16 +1,16 @@
 {
   "packageRules": [
     {
-      "matchLanguages": [
-        "javascript"
+      "matchDatasources": [
+        "npm"
       ],
       "addLabels": [
         "js"
       ]
     },
     {
-      "matchLanguages": [
-        "javascript"
+      "matchDatasources": [
+        "npm"
       ],
       "updateTypes": ["major"],
       "enabled": false

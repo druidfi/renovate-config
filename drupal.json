@@ -42,7 +42,8 @@
         "drupal/"
       ],
       "addLabels": [
-        "drupal"
+        "drupal",
+        "drupal-module"
       ]
     }
   ]

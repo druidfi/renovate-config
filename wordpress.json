@@ -23,7 +23,6 @@
       "matchPackagePrefixes": [
         "wpackagist-plugin/"
       ],
-      "automerge": true,
       "groupName": "WordPress Plugins",
       "addLabels": [
         "wordpress",

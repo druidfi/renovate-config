@@ -11,5 +11,8 @@
   "separateMajorMinor": true,
   "separateMinorPatch": true,
   "separateMultipleMajor": true,
-  "timezone": "Europe/Helsinki"
+  "timezone": "Europe/Helsinki",
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  }
 }

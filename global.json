@@ -12,7 +12,11 @@
   "separateMinorPatch": true,
   "separateMultipleMajor": true,
   "timezone": "Europe/Helsinki",
+  "schedule": [
+    "after 10pm and before 5am every weekday",
+    "every weekend"
+  ],
   "vulnerabilityAlerts": {
-    "labels": ["security"]
+    "addLabels": ["security"]
   }
 }

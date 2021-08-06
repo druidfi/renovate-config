@@ -17,6 +17,6 @@
     "every weekend"
   ],
   "vulnerabilityAlerts": {
-    "addLabels": ["security"]
+    "labels": ["security"]
   }
 }

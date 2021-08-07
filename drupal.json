@@ -8,7 +8,7 @@
       "packageNames": [
         "composer/installers",
         "cweagans/composer-patches",
-        "druidi/omen",
+        "druidfi/omen",
         "drush/drush"
       ],
       "groupName": "Drupal Tools",

@@ -41,6 +41,7 @@
       "matchPackagePrefixes": [
         "drupal/"
       ],
+      "updateTypes": ["patch", "minor"],
       "rangeStrategy": "bump",
       "groupName": "Drupal modules",
       "addLabels": [

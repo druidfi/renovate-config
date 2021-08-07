@@ -1,4 +1,5 @@
 {
+  "rangeStrategy": "update-lockfile",
   "packageRules": [
     {
       "updateTypes": ["patch", "minor"],
@@ -42,7 +43,6 @@
         "drupal/"
       ],
       "updateTypes": ["patch", "minor"],
-      "rangeStrategy": "bump",
       "groupName": "Drupal modules",
       "addLabels": [
         "drupal",

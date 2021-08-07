@@ -42,6 +42,7 @@
         "drupal/"
       ],
       "rangeStrategy": "bump",
+      "groupName": "Drupal modules",
       "addLabels": [
         "drupal",
         "drupal-module"

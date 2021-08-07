@@ -1,6 +1,9 @@
 {
-  "rangeStrategy": "update-lockfile",
   "packageRules": [
+    {
+      "matchLanguages": ["php"],
+      "rangeStrategy": "update-lockfile"
+    },
     {
       "updateTypes": ["patch", "minor"],
       "packageNames": [

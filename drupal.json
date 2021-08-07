@@ -21,6 +21,13 @@
       "matchPackagePrefixes": [
         "drupal/"
       ],
+      "excludePackageNames": [
+        "drupal/drupal",
+        "drupal/core-dev",
+        "drupal/core-dev-pinned",
+        "drupal/core-recommended",
+        "drupal/core-composer-scaffold"
+      ],
       "updateTypes": ["patch", "minor"],
       "groupName": "Drupal modules",
       "addLabels": [
@@ -31,6 +38,7 @@
     {
       "updateTypes": ["patch", "minor"],
       "packageNames": [
+        "drupal/core-dev",
         "drupal/core-dev-pinned",
         "drupal/core-recommended",
         "drupal/core-composer-scaffold"
@@ -44,6 +52,7 @@
     {
       "updateTypes": ["major"],
       "packageNames": [
+        "drupal/core-dev",
         "drupal/core-dev-pinned",
         "drupal/core-recommended",
         "drupal/core-composer-scaffold"

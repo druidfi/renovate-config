@@ -5,6 +5,30 @@
       "rangeStrategy": "update-lockfile"
     },
     {
+      "packageNames": [
+        "composer/installers",
+        "cweagans/composer-patches",
+        "druidi/omen",
+        "drush/drush"
+      ],
+      "groupName": "Drupal Tools",
+      "labels": [
+        "drupal",
+        "tools"
+      ]
+    },
+    {
+      "matchPackagePrefixes": [
+        "drupal/"
+      ],
+      "updateTypes": ["patch", "minor"],
+      "groupName": "Drupal modules",
+      "addLabels": [
+        "drupal",
+        "drupal-module"
+      ]
+    },
+    {
       "updateTypes": ["patch", "minor"],
       "packageNames": [
         "drupal/core-dev-pinned",
@@ -29,30 +53,6 @@
         "drupal",
         "drupal-core",
         "major"
-      ]
-    },
-    {
-      "packageNames": [
-        "composer/installers",
-        "cweagans/composer-patches",
-        "druidi/omen",
-        "drush/drush"
-      ],
-      "groupName": "Drupal Tools",
-      "labels": [
-        "drupal",
-        "tools"
-      ]
-    },
-    {
-      "matchPackagePrefixes": [
-        "drupal/"
-      ],
-      "updateTypes": ["patch", "minor"],
-      "groupName": "Drupal modules",
-      "addLabels": [
-        "drupal",
-        "drupal-module"
       ]
     }
   ]

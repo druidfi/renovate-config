@@ -30,11 +30,14 @@
     },
     {
       "packageNames": [
+        "composer/installers",
+        "cweagans/composer-patches",
+        "druidi/omen",
         "drush/drush"
       ],
+      "groupName": "Drupal Tools",
       "labels": [
         "drupal",
-        "drush",
         "tools"
       ]
     },

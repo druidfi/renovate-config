@@ -18,5 +18,14 @@
   ],
   "vulnerabilityAlerts": {
     "labels": ["security"]
-  }
+  },
+  "packageRules": [
+    {
+      "matchManagers": ["ansible-galaxy"],
+      "groupName": "Ansible roles",
+      "labels": [
+        "ansible"
+      ]
+    }
+  ]
 }

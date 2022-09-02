@@ -9,7 +9,8 @@
         "composer/installers",
         "cweagans/composer-patches",
         "druidfi/omen",
-        "drush/drush"
+        "drush/drush",
+        "oomphinc/composer-installers-extender"
       ],
       "groupName": "Drupal Tools",
       "labels": [
@@ -33,7 +34,8 @@
       "addLabels": [
         "drupal",
         "drupal-module"
-      ]
+      ],
+      "draftPR": true
     },
     {
       "updateTypes": ["patch", "minor"],
@@ -62,7 +64,8 @@
         "drupal",
         "drupal-core",
         "major"
-      ]
+      ],
+      "draftPR": true
     }
   ]
 }

@@ -6,7 +6,8 @@
   "extends": [
     "config:base",
     ":preserveSemverRanges",
-    ":disableRateLimiting"
+    ":disableRateLimiting",
+    ":enableVulnerabilityAlertsWithLabel('security')"
   ],
   "dependencyDashboard": true,
   "separateMajorMinor": true,
@@ -17,9 +18,6 @@
     "after 10pm and before 5am every weekday",
     "every weekend"
   ],
-  "vulnerabilityAlerts": {
-    "labels": ["security"]
-  },
   "packageRules": [
     {
       "matchManagers": ["ansible-galaxy"],

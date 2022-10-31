@@ -1,15 +1,28 @@
 {
   "packageRules": [
     {
-      "datasources": ["packagist"],
       "updateTypes": ["patch", "minor"],
       "matchPackagePrefixes": [
+        "doctrine/",
         "symfony/"
       ],
       "groupName": "Symfony",
       "labels": [
         "symfony"
-      ]
+      ],
+      "draftPR": true
+    },
+    {
+      "updateTypes": ["major"],
+      "matchPackagePrefixes": [
+        "doctrine/",
+        "symfony/"
+      ],
+      "groupName": "Symfony",
+      "labels": [
+        "symfony"
+      ],
+      "draftPR": true
     }
   ]
 }

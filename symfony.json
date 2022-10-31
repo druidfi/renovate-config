@@ -25,7 +25,8 @@
       "labels": [
         "symfony"
       ],
-      "draftPR": true
+      "draftPR": true,
+      "dependencyDashboardApproval": true
     }
   ]
 }

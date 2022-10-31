@@ -1,4 +1,7 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "installBeforeUpdate": true,
+  "allowPlugins": true,
   "packageRules": [
     {
       "updateTypes": ["patch", "minor"],

@@ -5,6 +5,7 @@
   ],
   "allowPlugins": true,
   "allowScripts": true,
+  "separateMinorPatch": false,
   "ignorePresets": [
     "group:symfony"
   ],

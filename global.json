@@ -7,7 +7,7 @@
     "config:base",
     ":preserveSemverRanges",
     ":disableRateLimiting",
-    ":enableVulnerabilityAlertsWithLabel('security')"
+    ":enableVulnerabilityAlertsWithLabel(security)"
   ],
   "dependencyDashboard": true,
   "separateMajorMinor": true,

@@ -25,6 +25,13 @@
       "labels": [
         "ansible"
       ]
+    },
+    {
+      "managers": ["composer"],
+      "labels": [
+        "dependencies",
+        "php"
+      ]
     }
   ],
   "ignoreDeps": [

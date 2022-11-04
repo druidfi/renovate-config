@@ -63,8 +63,7 @@
       "groupName": "Drupal Core",
       "labels": [
         "drupal",
-        "drupal-core",
-        "major"
+        "drupal-core"
       ],
       "draftPR": true
     }

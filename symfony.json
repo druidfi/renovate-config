@@ -1,25 +1,39 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":preserveSemverRanges"
+  ],
   "allowPlugins": true,
   "allowScripts": true,
+  "ignorePresets": [
+    "group:symfony"
+  ],
   "packageRules": [
+    {
+      "managers": ["composer"],
+      "rangeStrategy": "update-lockfile"
+    },
     {
       "updateTypes": ["patch", "minor"],
       "matchPackagePrefixes": [
         "doctrine/",
-        "symfony/"
+        "sensio/",
+        "symfony/",
+        "twig/"
       ],
       "groupName": "Symfony",
       "labels": [
         "symfony"
       ],
-      "draftPR": true
+      "draftPR": false
     },
     {
       "updateTypes": ["major"],
       "matchPackagePrefixes": [
         "doctrine/",
-        "symfony/"
+        "sensio/",
+        "symfony/",
+        "twig/"
       ],
       "groupName": "Symfony",
       "labels": [

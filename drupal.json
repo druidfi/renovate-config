@@ -32,7 +32,7 @@
       ],
       "updateTypes": ["patch", "minor"],
       "groupName": "Drupal modules",
-      "addLabels": [
+      "labels": [
         "drupal",
         "drupal-module"
       ],

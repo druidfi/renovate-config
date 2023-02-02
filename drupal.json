@@ -9,9 +9,12 @@
       "packageNames": [
         "composer/installers",
         "cweagans/composer-patches",
+        "dealerdirect/phpcodesniffer-composer-installer",
         "druidfi/omen",
         "drush/drush",
-        "oomphinc/composer-installers-extender"
+        "mglaman/composer-drupal-lenient",
+        "oomphinc/composer-installers-extender",
+        "wikimedia/composer-merge-plugin"
       ],
       "groupName": "Drupal Tools",
       "labels": [

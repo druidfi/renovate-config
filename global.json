@@ -28,7 +28,7 @@
     },
     {
       "managers": ["composer"],
-      "addLabels": [
+      "labels": [
         "dependencies",
         "php"
       ]

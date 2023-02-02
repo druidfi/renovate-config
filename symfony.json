@@ -23,8 +23,9 @@
         "twig/"
       ],
       "groupName": "Symfony packages",
-      "addLabels": [
-        "symfony"
+      "labels": [
+        "symfony",
+        "php"
       ],
       "draftPR": false
     },
@@ -38,7 +39,8 @@
       ],
       "groupName": "Symfony packages",
       "addLabels": [
-        "symfony"
+        "symfony",
+        "php"
       ],
       "draftPR": true,
       "dependencyDashboardApproval": true

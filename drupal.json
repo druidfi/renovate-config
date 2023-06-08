@@ -11,6 +11,8 @@
         "cweagans/composer-patches",
         "dealerdirect/phpcodesniffer-composer-installer",
         "druidfi/omen",
+        "drupal/devel",
+        "drupal/stage_file_proxy",
         "drush/drush",
         "mglaman/composer-drupal-lenient",
         "oomphinc/composer-installers-extender",

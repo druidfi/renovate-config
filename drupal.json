@@ -33,6 +33,18 @@
     },
     {
       "matchPackagePrefixes": [
+        "drupal-ckeditor-libraries-group/",
+        "npm-asset/"
+      ],
+      "groupName": "Drupal libraries & plugins",
+      "labels": [
+        "drupal",
+        "drupal-library"
+      ],
+      "draftPR": true
+    },
+    {
+      "matchPackagePrefixes": [
         "drupal/"
       ],
       "excludePackageNames": [

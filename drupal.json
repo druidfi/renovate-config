@@ -20,6 +20,7 @@
         "wikimedia/composer-merge-plugin"
       ],
       "groupName": "Drupal Tools",
+      "rangeStrategy": "bump",
       "labels": [
         "drupal",
         "tools"

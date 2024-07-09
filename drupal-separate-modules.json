@@ -23,7 +23,8 @@
       "rangeStrategy": "bump",
       "labels": [
         "drupal",
-        "tools"
+        "tools",
+        "ready for work"
       ]
     },
     {
@@ -55,7 +56,8 @@
       "groupName": "Drupal Core",
       "labels": [
         "drupal",
-        "drupal-core"
+        "drupal-core",
+        "ready for work"
       ]
     }
   ]

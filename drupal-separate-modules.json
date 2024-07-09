@@ -1,0 +1,62 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchLanguages": ["php"],
+      "rangeStrategy": "update-lockfile"
+    },
+    {
+      "packageNames": [
+        "composer/installers",
+        "cweagans/composer-patches",
+        "dealerdirect/phpcodesniffer-composer-installer",
+        "druidfi/drush-gdpr-dumper",
+        "druidfi/omen",
+        "drupal/devel",
+        "drupal/stage_file_proxy",
+        "drush/drush",
+        "mglaman/composer-drupal-lenient",
+        "oomphinc/composer-installers-extender",
+        "wikimedia/composer-merge-plugin"
+      ],
+      "groupName": "Drupal Tools",
+      "rangeStrategy": "bump",
+      "labels": [
+        "drupal",
+        "tools"
+      ]
+    },
+    {
+      "matchPackagePrefixes": [
+        "drupal/"
+      ],
+      "excludePackageNames": [
+        "drupal/drupal",
+        "drupal/core-dev",
+        "drupal/core-dev-pinned",
+        "drupal/core-recommended",
+        "drupal/core-composer-scaffold"
+      ],
+      "updateTypes": ["patch", "minor", "major"],
+      "labels": [
+        "drupal",
+        "drupal-module",
+        "ready for work"
+      ]
+    },
+    {
+      "updateTypes": ["patch", "minor"],
+      "packageNames": [
+        "drupal/core-dev",
+        "drupal/core-dev-pinned",
+        "drupal/core-recommended",
+        "drupal/core-composer-scaffold"
+      ],
+      "groupName": "Drupal Core",
+      "labels": [
+        "drupal",
+        "drupal-core"
+      ]
+    }
+  ]
+}

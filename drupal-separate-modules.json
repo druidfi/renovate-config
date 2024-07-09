@@ -40,7 +40,6 @@
       ],
       "updateTypes": ["patch", "minor", "major"],
       "labels": [
-        "drupal",
         "drupal-module",
         "ready for work"
       ]
@@ -55,7 +54,6 @@
       ],
       "groupName": "Drupal Core",
       "labels": [
-        "drupal",
         "drupal-core",
         "ready for work"
       ]

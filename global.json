@@ -32,6 +32,18 @@
         "dependencies",
         "php"
       ]
+    },
+    {
+      "matchPackagePrefixes": [
+        "uselagoon/"
+      ],
+      "managers": ["docker"],
+      "groupName": "Lagoon Docker images",
+      "labels": [
+        "docker",
+        "lagoon"
+      ],
+      "draftPR": true
     }
   ],
   "ignoreDeps": [

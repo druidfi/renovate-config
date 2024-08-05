@@ -37,7 +37,7 @@
       "matchPackagePrefixes": [
         "uselagoon/"
       ],
-      "managers": ["docker"],
+      "managers": ["dockerfile", "docker-compose"],
       "groupName": "Lagoon Docker images",
       "labels": [
         "docker",

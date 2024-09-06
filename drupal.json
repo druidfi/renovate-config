@@ -91,6 +91,18 @@
         "drupal-core"
       ],
       "draftPR": true
+    },
+    {
+      "packageNames": [
+        "drupal/gin",
+        "drupal/gin_login",
+        "drupal/gin_toolbar"
+      ],
+      "groupName": "Gin",
+      "labels": [
+        "drupal"
+      ],
+      "draftPR": true
     }
   ]
 }

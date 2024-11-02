@@ -107,6 +107,6 @@
     }
   ],
   "prBodyDefinitions": {
-    "Compare": "[Compare](https://git.drupalcode.org/project/{{replace '\.git' '' sourceRepoName}}/-/compare/{{currentVersion}}...{{newVersion}})"
+    "Compare": "[Compare](https://git.drupalcode.org/project/{{replace '.git' '' sourceRepoName}}/-/compare/{{currentVersion}}...{{newVersion}})"
   }
 }

@@ -13,6 +13,7 @@
         "druidfi/drush-gdpr-dumper",
         "druidfi/omen",
         "drupal/devel",
+        "drupal/lagoon_logs",
         "drupal/stage_file_proxy",
         "drush/drush",
         "mglaman/composer-drupal-lenient",

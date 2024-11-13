@@ -31,6 +31,13 @@
       "matchPackagePrefixes": [
         "drupal/"
       ],
+      "excludePackageNames": [
+        "drupal/drupal",
+        "drupal/core-dev",
+        "drupal/core-dev-pinned",
+        "drupal/core-recommended",
+        "drupal/core-composer-scaffold"
+      ],
       "allowedVersions": "/^[0-9]+\\.[0-9]+\\.[0-9]+(\\.[0-9]+)?$/",
       "prBodyColumns": ["Package", "Change", "Compare"]
     },

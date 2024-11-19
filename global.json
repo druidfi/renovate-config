@@ -46,6 +46,19 @@
       "draftPR": true
     }
   ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": [
+        ".github/renovate.json"
+      ],
+      "matchStrings": [
+        "\"php\": \"(?<currentValue>.*?)\"\n"
+      ],
+      "depNameTemplate": "druidfi/drupal-web",
+      "datasourceTemplate": "docker"
+    }
+  ],
   "ignoreDeps": [
     "php"
   ]

@@ -47,7 +47,10 @@
     },
     {
       "matchPackageNames": ["druidfi/drupal-web"],
-      "enabledManagers": ["custom.regex"]
+      "enabledManagers": ["custom.regex"],
+      "labels": [
+        "php"
+      ]
     }
   ],
   "customManagers": [

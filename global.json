@@ -49,7 +49,7 @@
       "matchPackagePrefixes": [
         "uselagoon/"
       ],
-      "matchManagers": ["regex"],
+      "matchManagers": ["custom.regex"],
       "enabled": false
     }
   ],

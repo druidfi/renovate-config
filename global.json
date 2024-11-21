@@ -46,16 +46,15 @@
       "draftPR": true
     },
     {
-      "matchPackagePrefixes": [
-        "uselagoon/"
-      ],
+      "matchPackageNames": ["druidfi/drupal-web"],
       "matchManagers": ["custom.regex"],
-      "enabled": false
+      "enabled": true
     }
   ],
   "customManagers": [
     {
       "customType": "regex",
+      "enabled": false,
       "fileMatch": [
         ".github/renovate.json"
       ],

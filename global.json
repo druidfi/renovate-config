@@ -48,6 +48,7 @@
     {
       "matchPackageNames": ["druidfi/drupal-web"],
       "matchManagers": ["custom.regex"],
+      "matchDatasources": ["docker"],
       "enabled": true
     }
   ],

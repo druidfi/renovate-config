@@ -55,6 +55,7 @@
   ],
   "customManagers": [
     {
+      "enabled": false,
       "customType": "regex",
       "fileMatch": [
         ".github/renovate.json"

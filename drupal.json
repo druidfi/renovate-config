@@ -48,7 +48,6 @@
       ],
       "groupName": "Drupal libraries & plugins",
       "labels": [
-        "drupal",
         "drupal-library"
       ],
       "draftPR": true
@@ -67,7 +66,6 @@
       "updateTypes": ["patch", "minor"],
       "groupName": "Drupal modules",
       "labels": [
-        "drupal",
         "drupal-module"
       ],
       "draftPR": true
@@ -82,7 +80,6 @@
       ],
       "groupName": "Drupal Core",
       "labels": [
-        "drupal",
         "drupal-core"
       ]
     },
@@ -96,7 +93,6 @@
       ],
       "groupName": "Drupal Core",
       "labels": [
-        "drupal",
         "drupal-core"
       ],
       "draftPR": true

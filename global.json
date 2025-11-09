@@ -46,6 +46,12 @@
       "draftPR": true
     },
     {
+      "managers": ["github-actions"],
+      "labels": [
+        "gha"
+      ]
+    },
+    {
       "matchPackageNames": ["druidfi/drupal-web"],
       "enabledManagers": ["custom.regex"],
       "labels": [

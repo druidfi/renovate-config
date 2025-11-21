@@ -64,15 +64,20 @@
   ],
   "customManagers": [
     {
-      "enabled": false,
+      "enabled": true,
       "customType": "regex",
       "fileMatch": [
-        ".github/renovate.json"
+        ".github/renovate.json",
+        "Dockerfile",
+        "compose.yml",
+        "compose.yaml",
+        "docker-compose.yml",
+        "docker-compose.yaml"
       ],
       "matchStrings": [
-        "\"php\": \"(?<currentValue>.*?)\"\n"
+        "(?:ghcr\\.io/)?druidfi/drupal-web:(?<currentValue>php-[0-9]+\\.[0-9]+\\.[0-9]+)"
       ],
-      "depNameTemplate": "druidfi/drupal-web",
+      "depNameTemplate": "{{{registryUrl}}}druidfi/drupal-web",
       "datasourceTemplate": "docker",
       "versioningTemplate": "docker"
     }

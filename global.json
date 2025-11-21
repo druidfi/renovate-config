@@ -56,7 +56,7 @@
         "druidfi/drupal-web",
         "ghcr.io/druidfi/drupal-web"
       ],
-      "enabledManagers": ["custom.regex"],
+      "managers": ["custom.regex"],
       "labels": [
         "php"
       ]

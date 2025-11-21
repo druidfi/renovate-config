@@ -52,7 +52,10 @@
       ]
     },
     {
-      "matchPackageNames": ["druidfi/drupal-web"],
+      "matchPackageNames": [
+        "druidfi/drupal-web",
+        "ghcr.io/druidfi/drupal-web"
+      ],
       "enabledManagers": ["custom.regex"],
       "labels": [
         "php"

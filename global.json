@@ -56,6 +56,14 @@
         "druidfi/drupal-web",
         "ghcr.io/druidfi/drupal-web"
       ],
+      "matchManagers": ["dockerfile", "docker-compose"],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": [
+        "druidfi/drupal-web",
+        "ghcr.io/druidfi/drupal-web"
+      ],
       "managers": ["custom.regex"],
       "labels": [
         "php"

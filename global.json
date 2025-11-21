@@ -75,18 +75,14 @@
       "enabled": true,
       "customType": "regex",
       "fileMatch": [
-        "Dockerfile",
-        "compose.yml",
-        "compose.yaml",
-        "docker-compose.yml",
-        "docker-compose.yaml"
+        "Dockerfile"
       ],
-      "matchStrings": ["(?:ghcr\\.io/)?druidfi/drupal-web:(?<currentValue>php-[0-9]+\\.[0-9]+\\.[0-9]+)"],
-      "depNameTemplate": "{{{depName}}}",
-      "packageNameTemplate": "{{{depName}}}",
+      "matchStrings": [
+        "FROM (?:ghcr\\.io/)?druidfi/drupal-web:(?<currentValue>php-[0-9]+\\.[0-9]+\\.[0-9]+)"
+      ],
+      "depNameTemplate": "druidfi/drupal-web",
       "datasourceTemplate": "docker",
-      "versioningTemplate": "loose",
-      "extractVersionTemplate": "^php-(?<version>.*)$"
+      "versioningTemplate": "loose"
     }
   ],
   "ignoreDeps": [

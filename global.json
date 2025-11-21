@@ -74,13 +74,11 @@
         "docker-compose.yml",
         "docker-compose.yaml"
       ],
-      "matchStrings": [
-        "(?:ghcr\\.io/)?druidfi/drupal-web:php-(?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+)"
-      ],
-      "depNameTemplate": "{{{registryUrl}}}druidfi/drupal-web",
+      "matchStrings": ["(?:ghcr\\.io/)?druidfi/drupal-web:(?<currentValue>php-[0-9]+\\.[0-9]+\\.[0-9]+)"],
+      "depNameTemplate": "druidfi/drupal-web",
       "datasourceTemplate": "docker",
-      "versioningTemplate": "docker",
-      "autoReplaceStringTemplate": "{{#if currentValue}}{{depName}}:php-{{newValue}}{{else}}{{depName}}:{{newValue}}{{/if}}"
+      "versioningTemplate": "regex",
+      "extractVersionTemplate": "^php-(?<version>.*)$"
     }
   ],
   "ignoreDeps": [

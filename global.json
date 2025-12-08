@@ -59,6 +59,16 @@
       "labels": [
         "php"
       ]
+    },
+    {
+      "matchPackageNames": [
+        "druidfi/mautic",
+        "druidfi/mautic-dxp",
+        "mautic/mautic"
+      ],
+      "labels": [
+        "mautic"
+      ]
     }
   ],
   "ignoreDeps": [

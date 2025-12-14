@@ -44,6 +44,22 @@
       ],
       "draftPR": true,
       "dependencyDashboardApproval": true
+    },
+    {
+      "packageNames": [
+        "dbrekelmans/bdi",
+        "friendsofphp/php-cs-fixer",
+        "phpunit/phpunit",
+        "rector/rector",
+        "symfony/panther",
+        "symfony/phpunit-bridge"
+      ],
+      "groupName": "Symfony Tools",
+      "rangeStrategy": "bump",
+      "labels": [
+        "symfony",
+        "tools"
+      ]
     }
   ]
 }

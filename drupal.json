@@ -10,7 +10,6 @@
         "composer/installers",
         "cweagans/composer-patches",
         "dealerdirect/phpcodesniffer-composer-installer",
-        "druidfi/drush-gdpr-dumper",
         "druidfi/omen",
         "drupal/devel",
         "drupal/lagoon_logs",

@@ -70,7 +70,7 @@
       "draftPR": true
     },
     {
-      "updateTypes": ["patch", "minor"],
+      "updateTypes": ["patch"],
       "packageNames": [
         "drupal/core-dev",
         "drupal/core-dev-pinned",

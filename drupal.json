@@ -70,7 +70,7 @@
       "draftPR": true
     },
     {
-      "updateTypes": ["patch", "minor"],
+      "updateTypes": ["patch"],
       "packageNames": [
         "drupal/core-dev",
         "drupal/core-dev-pinned",
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "updateTypes": ["major"],
+      "updateTypes": ["minor", "major"],
       "packageNames": [
         "drupal/core-dev",
         "drupal/core-dev-pinned",
@@ -94,7 +94,7 @@
       "labels": [
         "drupal-core"
       ],
-      "draftPR": true
+      "enabled": false
     },
     {
       "packageNames": [

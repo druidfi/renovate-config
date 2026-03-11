@@ -98,13 +98,23 @@
     },
     {
       "packageNames": [
+        "drupal/ai"
+      ],
+      "groupName": "AI",
+      "labels": [
+        "drupal-module"
+      ],
+      "draftPR": true
+    },
+    {
+      "packageNames": [
         "drupal/gin",
         "drupal/gin_login",
         "drupal/gin_toolbar"
       ],
       "groupName": "Gin",
       "labels": [
-        "drupal"
+        "drupal-module"
       ],
       "draftPR": true
     }

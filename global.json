@@ -27,7 +27,7 @@
       ]
     },
     {
-      "managers": ["composer"],
+      "matchManagers": ["composer"],
       "labels": [
         "dependencies",
         "php"
@@ -37,7 +37,7 @@
       "matchPackagePrefixes": [
         "uselagoon/"
       ],
-      "managers": ["dockerfile", "docker-compose"],
+      "matchManagers": ["dockerfile", "docker-compose"],
       "groupName": "Lagoon Docker images",
       "labels": [
         "docker",

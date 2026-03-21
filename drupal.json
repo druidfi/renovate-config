@@ -38,7 +38,7 @@
         "drupal/core-composer-scaffold"
       ],
       "allowedVersions": "/^[0-9]+\\.[0-9]+\\.[0-9]+(\\.[0-9]+)?$/",
-      "prBodyColumns": ["Package", "Change", "Compare"]
+      "prBodyColumns": ["Package", "Change", "Release", "Compare"]
     },
     {
       "matchPackagePrefixes": [
@@ -120,6 +120,7 @@
     }
   ],
   "prBodyDefinitions": {
-    "Compare": "[Compare](https://git.drupalcode.org/project/{{replace '.git' '' sourceRepoName}}/-/compare/{{currentVersion}}...{{newVersion}})"
+    "Compare": "[Compare](https://git.drupalcode.org/project/{{replace '.git' '' sourceRepoName}}/-/compare/{{currentVersion}}...{{newVersion}})",
+    "Release": "[{{newVersion}}](https://www.drupal.org/project/{{replace 'drupal/' '' packageName}}/releases/{{newVersion}})"
   }
 }

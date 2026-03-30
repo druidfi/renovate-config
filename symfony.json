@@ -55,6 +55,7 @@
         "symfony/phpunit-bridge"
       ],
       "groupName": "Symfony Tools",
+      "rangeStrategy": "replace",
       "labels": [
         "symfony",
         "tools"

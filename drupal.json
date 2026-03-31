@@ -64,6 +64,7 @@
       ],
       "updateTypes": ["patch", "minor"],
       "groupName": "Drupal modules",
+      "schedule": ["on monday"],
       "labels": [
         "drupal-module"
       ],

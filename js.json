@@ -3,7 +3,8 @@
   "packageRules": [
     {
       "matchDatasources": [
-        "npm"
+        "npm",
+        "node-version"
       ],
       "addLabels": [
         "js"

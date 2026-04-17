@@ -16,6 +16,19 @@
       ],
       "updateTypes": ["major"],
       "enabled": false
+    },
+    {
+      "matchDatasources": [
+        "node-version"
+      ],
+      "updateTypes": ["minor", "patch"],
+      "enabled": false
+    },
+    {
+      "matchDatasources": [
+        "node-version"
+      ],
+      "allowedVersions": "/^[0-9]*[02468]\\."
     }
   ]
 }

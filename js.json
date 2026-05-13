@@ -39,6 +39,11 @@
         "node-version"
       ],
       "allowedVersions": "/^[0-9]*[02468]\\./"
+    },
+    {
+      "matchPackageNames": ["pnpm"],
+      "updateTypes": ["patch"],
+      "enabled": false
     }
   ]
 }

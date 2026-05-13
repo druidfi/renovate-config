@@ -19,6 +19,7 @@
         "wikimedia/composer-merge-plugin"
       ],
       "groupName": "Drupal Tools",
+      "updateTypes": ["patch", "minor"],
       "rangeStrategy": "bump",
       "labels": [
         "drupal",

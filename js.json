@@ -1,5 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": ["security"]
+  },
   "packageRules": [
     {
       "matchDatasources": [
@@ -9,6 +13,12 @@
       "addLabels": [
         "js"
       ]
+    },
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "minimumReleaseAge": "7 days"
     },
     {
       "matchDatasources": [

@@ -48,7 +48,7 @@
     },
     {
       "managers": ["github-actions"],
-      "matchDatasources": ["github-actions"],
+      "matchDepTypes": ["action"],
       "groupName": "GitHub Actions",
       "labels": [
         "gha"

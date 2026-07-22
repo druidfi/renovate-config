@@ -48,10 +48,10 @@
     },
     {
       "managers": ["github-actions"],
+      "groupName": "GitHub Actions",
       "labels": [
         "gha"
-      ],
-      "prTitle": "Update {{depName}} digest to {{newValue}}"
+      ]
     },
     {
       "matchPackageNames": [

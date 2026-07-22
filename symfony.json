@@ -15,7 +15,7 @@
       "rangeStrategy": "update-lockfile"
     },
     {
-      "updateTypes": ["patch", "minor"],
+      "updateTypes": ["patch"],
       "matchPackagePrefixes": [
         "doctrine/",
         "sensio/",
@@ -30,20 +30,14 @@
       "draftPR": false
     },
     {
-      "updateTypes": ["major"],
+      "updateTypes": ["minor", "major"],
       "matchPackagePrefixes": [
         "doctrine/",
         "sensio/",
         "symfony/",
         "twig/"
       ],
-      "groupName": "Symfony packages",
-      "addLabels": [
-        "symfony",
-        "php"
-      ],
-      "draftPR": true,
-      "dependencyDashboardApproval": true
+      "enabled": false
     },
     {
       "packageNames": [

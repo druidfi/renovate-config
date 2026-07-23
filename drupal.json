@@ -32,6 +32,7 @@
       ],
       "excludePackageNames": [
         "drupal/drupal",
+        "drupal/core",
         "drupal/core-dev",
         "drupal/core-recommended",
         "drupal/core-composer-scaffold"
@@ -56,6 +57,7 @@
       ],
       "excludePackageNames": [
         "drupal/drupal",
+        "drupal/core",
         "drupal/core-dev",
         "drupal/core-recommended",
         "drupal/core-composer-scaffold"
@@ -71,6 +73,7 @@
     {
       "updateTypes": ["patch"],
       "packageNames": [
+        "drupal/core",
         "drupal/core-dev",
         "drupal/core-recommended",
         "drupal/core-composer-scaffold"
@@ -83,6 +86,7 @@
     {
       "updateTypes": ["minor", "major"],
       "packageNames": [
+        "drupal/core",
         "drupal/core-dev",
         "drupal/core-recommended",
         "drupal/core-composer-scaffold"

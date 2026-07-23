@@ -34,7 +34,6 @@
       "excludePackageNames": [
         "drupal/drupal",
         "drupal/core-dev",
-        "drupal/core-dev-pinned",
         "drupal/core-recommended",
         "drupal/core-composer-scaffold"
       ],
@@ -48,7 +47,6 @@
       "updateTypes": ["patch", "minor"],
       "packageNames": [
         "drupal/core-dev",
-        "drupal/core-dev-pinned",
         "drupal/core-recommended",
         "drupal/core-composer-scaffold"
       ],

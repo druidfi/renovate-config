@@ -15,7 +15,7 @@
         "drupal/stage_file_proxy",
         "drush/drush",
         "mglaman/composer-drupal-lenient",
-        "oomphinc/composer-installers-extender",
+        "mnsami/composer-custom-directory-installer",
         "wikimedia/composer-merge-plugin"
       ],
       "groupName": "Drupal Tools",

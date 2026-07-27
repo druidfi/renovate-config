@@ -42,6 +42,11 @@
     },
     {
       "matchPackageNames": ["pnpm"],
+      "groupName": "pnpm",
+      "minimumReleaseAge": "30 days"
+    },
+    {
+      "matchPackageNames": ["pnpm"],
       "updateTypes": ["patch"],
       "enabled": false
     }

@@ -35,6 +35,12 @@
       ]
     },
     {
+      "matchManagers": ["dockerfile", "docker-compose"],
+      "labels": [
+        "docker"
+      ]
+    },
+    {
       "matchPackagePrefixes": [
         "uselagoon/"
       ],

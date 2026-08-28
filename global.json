@@ -83,6 +83,14 @@
       "matchManagers": ["github-actions"],
       "matchPackageNames": ["druidfi/magic"],
       "pinDigests": false
+    },
+    {
+      "matchManagers": ["mise"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "enabled": false,
+      "labels": [
+        "mise"
+      ]
     }
   ],
   "ignoreDeps": [

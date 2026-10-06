@@ -91,9 +91,11 @@
       "labels": [
         "mise"
       ]
+    },
+    {
+      "matchManagers": ["composer"],
+      "matchPackageNames": ["php"],
+      "enabled": false
     }
-  ],
-  "ignoreDeps": [
-    "php"
   ]
 }

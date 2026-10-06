@@ -69,6 +69,17 @@
       ],
       "updateTypes": ["minor", "major"],
       "enabled": false
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["php"],
+      "separateMinorPatch": true
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["php"],
+      "updateTypes": ["minor", "major"],
+      "enabled": false
     }
   ]
 }

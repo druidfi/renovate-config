@@ -96,6 +96,10 @@
       "matchManagers": ["composer"],
       "matchPackageNames": ["php"],
       "enabled": false
+    },
+    {
+      "matchDepTypes": ["tool-constraint"],
+      "enabled": false
     }
   ]
 }

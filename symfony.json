@@ -57,14 +57,12 @@
     },
     {
       "matchPackageNames": [
-        "druidfi/drupal-web",
         "ghcr.io/druidfi/drupal-web"
       ],
       "separateMinorPatch": true
     },
     {
       "matchPackageNames": [
-        "druidfi/drupal-web",
         "ghcr.io/druidfi/drupal-web"
       ],
       "updateTypes": ["minor", "major"],

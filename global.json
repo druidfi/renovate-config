@@ -62,7 +62,6 @@
     },
     {
       "matchPackageNames": [
-        "druidfi/drupal-web",
         "ghcr.io/druidfi/drupal-web"
       ],
       "labels": [
@@ -71,8 +70,8 @@
     },
     {
       "matchPackageNames": [
-        "druidfi/mautic",
-        "druidfi/mautic-dxp",
+        "ghcr.io/druidfi/mautic",
+        "ghcr.io/druidfi/mautic-dxp",
         "mautic/mautic"
       ],
       "labels": [

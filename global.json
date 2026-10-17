@@ -99,6 +99,16 @@
     {
       "matchDepTypes": ["tool-constraint"],
       "enabled": false
+    },
+    {
+      "matchPackageNames": [
+        "ghcr.io/druidfi/mariadb",
+        "ghcr.io/druidfi/mysql",
+        "mariadb",
+        "mysql"
+      ],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
     }
   ]
 }

@@ -99,6 +99,11 @@
     {
       "matchDepTypes": ["tool-constraint"],
       "enabled": false
+    },
+    {
+      "matchPackageNames": ["ghcr.io/druidfi/mysql"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
     }
   ]
 }

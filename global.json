@@ -7,7 +7,7 @@
     "config:base",
     ":preserveSemverRanges",
     ":disableRateLimiting",
-    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":enableVulnerabilityAlertsWithAdditionalLabel(security)",
     "helpers:pinGitHubActionDigestsToSemver"
   ],
   "dependencyDashboard": true,

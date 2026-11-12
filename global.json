@@ -7,10 +7,14 @@
     "config:base",
     ":preserveSemverRanges",
     ":disableRateLimiting",
-    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":enableVulnerabilityAlertsWithAdditionalLabel(security)",
     "helpers:pinGitHubActionDigestsToSemver"
   ],
   "dependencyDashboard": true,
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "draftPR": false
+  },
   "separateMajorMinor": true,
   "separateMinorPatch": true,
   "separateMultipleMajor": true,

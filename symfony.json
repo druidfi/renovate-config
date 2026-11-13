@@ -41,6 +41,11 @@
       "enabled": false
     },
     {
+      "matchPackageNames": ["druidfi/symfony-lts"],
+      "matchUpdateTypes": ["minor", "major"],
+      "enabled": false
+    },
+    {
       "packageNames": [
         "dbrekelmans/bdi",
         "friendsofphp/php-cs-fixer",

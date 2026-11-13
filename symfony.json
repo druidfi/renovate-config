@@ -3,8 +3,9 @@
   "extends": [
     ":preserveSemverRanges"
   ],
-  "allowPlugins": true,
-  "allowScripts": true,
+  "vulnerabilityAlerts": {
+    "vulnerabilityFixStrategy": "highest"
+  },
   "separateMinorPatch": false,
   "ignorePresets": [
     "group:symfony"

@@ -41,7 +41,7 @@
       "enabled": false
     },
     {
-      "matchPackageNames": ["druidfi/symfony-lts"],
+      "matchPackageNames": ["druidfi/symfony-minor-pin"],
       "matchUpdateTypes": ["minor", "major"],
       "enabled": false
     },
